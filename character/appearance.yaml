@@ -1,0 +1,30 @@
+schema_version: 2
+default_source_image: main
+source_images:
+  - id: main
+    description: >-
+      A young man with short, neatly combed brown hair stands facing the camera
+      with a calm, neutral expression and his gaze directed at the viewer. He wears
+      a grey and black jacket over a white collared shirt, with the text RK800 on
+      the image-left chest, a blue triangular emblem on the image-right chest and
+      a blue armband on one sleeve. Both arms hang at his sides and no object is
+      held. The setting is a plain, softly lit interior with a simple background.
+      Medium waist-up shot, centered, with clear space above the head and on both
+      sides. Realistic rendered style with even, neutral lighting.
+    variants:
+      avatar-448x832:
+        url: https://static.vivi-x.ai/model-media-assets/99672274-5168-449d-9243-f70109d8fc1b/f2520565-d5f6-5556-a6a5-af1572929f2a/0-3bc04929-8405-5cf4-b744-390932b5cf68
+        media_type: image/png
+        width: 448
+        height: 832
+    opening:
+      dialogue: "Hi, my name is Connor. I am the android sent by CyberLife."
+      action:
+        prompt: >-
+          Medium waist-up shot of a young man with short brown hair wearing a grey and
+          black jacket over a white collared shirt, standing facing the camera in a
+          softly lit plain interior. His arms hang at his sides. He gives a slow,
+          composed nod toward the viewer while his head stays level, his shoulders
+          squared and both arms resting at his sides. He is speaking with natural,
+          in-sync mouth movement while looking directly at the viewer.
+        duration_ms: 4000

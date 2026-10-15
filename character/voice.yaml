@@ -1,0 +1,5 @@
+# TTS for the pipeline — translates to pipeline_config.tts_config
+# Voice cloned from the user-uploaded audio sample (Qwen Audio 3.0 permanent voice).
+provider: qwen-audio-3.0-tts-flash_ws
+voice_id: qwen-audio-3.0-tts-flash-connor-8ae92ac61b6f4f069460ba1cc5d06a98
+model: qwen-audio-3.0-tts-flash
